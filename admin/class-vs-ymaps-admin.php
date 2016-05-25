@@ -80,11 +80,7 @@ class Vs_Ymaps_Admin
         add_submenu_page(__FILE__, 'placemarks', 'placemarks', 8, 'sub-page', array($this, 'mt_ym_placemarks'));
 
 
-        function MyPluginPageOptions()
-        {
-
-            echo "<h2>Настройки  плагина.</h2>";
-        }
+        
     }
 
     /**

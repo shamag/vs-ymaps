@@ -60,13 +60,10 @@
             places.forEach(function (item, i, arr) {
                 tableL = document.createElement('table');
                 tmp += "<tr><td>" + (i + 1) + "</td><td><a href='#' class='mapSelect' data=" + (i + 1) + ">" + item.legendContent + "</a></td></tr>";
-
             });
             tableL.innerHTML = '<tr><th colspan="2">' + options['title'] + '</th></tr>' + tmp;
             document.querySelector('div.legend').appendChild(tableL);
-
             nav = document.querySelectorAll('.mapSelect');
-            console.log(nav);
             var sel;
             for (var i = 0; i < nav.length; i++) {
 

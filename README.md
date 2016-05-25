@@ -1,6 +1,6 @@
 # ABOUT
 
-Simple wordpress plugin alllows to put yandex maps with placemarks, navigation  on your blog
+Simple wordpress plugin alllows you to put yandex maps with placemarks, navigation  on your blog
 
 ## Prerequisites
 
