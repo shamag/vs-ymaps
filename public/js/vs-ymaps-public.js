@@ -75,7 +75,7 @@
 
                         if (sel == (i + 1)) {
                             pm[i] = new ymaps.Placemark([item.coords[0], item.coords[1]], {
-                                iconContent: '<b style="font-size:105%;">' + (i + 1) + '.</b>' + item.iconContent,
+                                iconContent: '<b">' + (i + 1) + '.</b>' + item.iconContent,
                                 hintContent: item.hintContent,
                                 balloonContentHeader: item.balloonContentHeader,
                                 balloonContentBody: item.balloonContentBody,
@@ -85,7 +85,7 @@
                             });
                         } else {
                             pm[i] = new ymaps.Placemark(item.coords, {
-                                iconContent: '<b style="font-size:105%;">' + (i + 1) + '.</b>' + item.iconContent,
+                                iconContent: '<b">' + (i + 1) + '.</b>' + item.iconContent,
                                 hintContent: item.hintContent,
                                 balloonContentHeader: item.balloonContentHeader,
                                 balloonContentBody: item.balloonContentBody,

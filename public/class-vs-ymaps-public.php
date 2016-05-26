@@ -127,7 +127,7 @@ class Vs_Ymaps_Public {
 		$options = get_option((string)$this->name);
 		$placemarks = get_option((string)$this->placemarks_name);
 
-		return "<div id=\"map\"  style=\"width: 100%; height:800px;\"></div><div class='legend'></div><div class='options' style='display:none'>".json_encode($options)."</div><div class='placemarks' style='display:none'>".json_encode($placemarks)."</div>";
+		return "<div id=\"map\"></div><div class='legend'></div><div class='options'>".json_encode($options)."</div><div class='placemarks'>".json_encode($placemarks)."</div>";
 	}
 
 }
