@@ -43,7 +43,7 @@
             myCollection.removeAll();
             places.forEach(function (item, i, arr) {
                 pm[i] = new ymaps.Placemark(item.coords, {
-                    iconContent: '<b style="font-size:105%;">' + (i + 1) + '.</b>' + item.iconContent,
+                    iconContent: '<b>' + (i + 1) + '.</b>' + item.iconContent,
                     hintContent: item.hintContent,
                     balloonContentHeader: item.balloonContentHeader,
                     balloonContentBody: item.balloonContentBody,
